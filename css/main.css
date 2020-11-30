@@ -74,7 +74,6 @@ p, li, textarea, label, input, select {
 }
 .bloc_texte_img {
   display: flex;
- size: 487px 471px;
 }
 
 .bloc_texte { 
@@ -88,6 +87,18 @@ padding-left: 50px;
   text-align: justify;
 }
 
+.button1 {
+  border: solid 4px #fcce00;
+  border-radius: 15px;
+  display: block;
+  max-width: 200px;
+  font-style : normal;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  color:#fcce00;
+  padding : 10px 32px;
+}
 a {
   /* Link color */
 }
