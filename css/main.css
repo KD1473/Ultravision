@@ -7,37 +7,57 @@
 
 body {
   /* Default font family and font color */
+  font-family: 'poppins',sans-serif;
 }
 
 p, li, textarea, label, input, select {
   /* Default font size and line height */
 }
 
-
-
 h1 {
-   /* Default font, size, and margins */
+  font-size: 89px;
+  color: white;
+  text-align: center;
+  background-color: #fcce00;
+  margin-top: 0;
+  margin-bottom: 8px;
 }
 
 h2 {
+  Font-size: 38px;
+  color: white;
+  text-align: center; 
+  background-color: #ff6b00;
+  margin-bottom: 8px;
   /* Default font, size, and margins */
 }
 
-h3 {
+.blocrouge {
   /* Default font, size, and margins */
+ height: 32px;
+  background-color: #e02020;
+  margin-bottom: 8px;
+
 }
 
-h4 {
+.blocviolet {
   /* Default font, size, and margins */
+  height: 16px;
+  display: block;
+  background-color:  #b620e0;
+  margin-bottom: 8px;
+ 
 }
 
-h5 {
+.blocbleu {
   /* Default font, size, and margins */
+  height: 8px;
+  display: block;
+  background-color: #6236ff;
+  margin-bottom: 8px;
+ 
 }
 
-h6 {
-  /* Default font, size, and margins */
-}
 
 
 a {
