@@ -63,24 +63,31 @@ p, li, textarea, label, input, select {
   font-size: 40px;
   color: black;
   text-align: center;
+  margin-top: 0;
+  margin-bottom: 8px;
 }
+
 .subtitle {
   font-size: 24px;
   color : black;
   text-align: left;
 }
-.ordinateur {
-  width: 640px;
-  height: 345px;
-  margin: 34px 32px 30px;
-  font-size: 24px;
+.bloc_texte_img {
+  display: flex;
+ size: 487px 471px;
 }
+
+.bloc_texte { 
+width: 50%;
+padding-left: 50px;
+  padding-right: 32px;
+}
+
 .texte {
-  width: 640px;
-  height: 345px;
-  margin: 34px 32px 30px;
-  font-size: 24px;
+  font-size: 16px;
+  text-align: justify;
 }
+
 a {
   /* Link color */
 }
