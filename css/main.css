@@ -14,7 +14,7 @@ p, li, textarea, label, input, select {
   /* Default font size and line height */
 }
 
-h1 {
+.title {
   font-size: 89px;
   color: white;
   text-align: center;
@@ -23,7 +23,7 @@ h1 {
   margin-bottom: 8px;
 }
 
-h2 {
+.section-title {
   Font-size: 38px;
   color: white;
   text-align: center; 
@@ -59,8 +59,28 @@ h2 {
  
 }
 
-
-
+.title1 {
+  font-size: 40px;
+  color: black;
+  text-align: center;
+}
+.subtitle {
+  font-size: 24px;
+  color : black;
+  text-align: left;
+}
+.ordinateur {
+  width: 640px;
+  height: 345px;
+  margin: 34px 32px 30px;
+  font-size: 24px;
+}
+.texte {
+  width: 640px;
+  height: 345px;
+  margin: 34px 32px 30px;
+  font-size: 24px;
+}
 a {
   /* Link color */
 }
