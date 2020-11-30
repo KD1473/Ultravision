@@ -86,7 +86,10 @@ padding-left: 50px;
   font-size: 16px;
   text-align: justify;
 }
-
+.fondimage {
+  mix-blend-mode: darken;
+  font-size: 50px;
+}
 .button1 {
   border: solid 4px #fcce00;
   border-radius: 15px;
