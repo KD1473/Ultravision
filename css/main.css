@@ -97,6 +97,7 @@ align-items: flex-end;
 }
 .bloc_texte_img {
   display: flex;
+  padding-bottom: 30px;
 }
 
 .button1 {
@@ -139,6 +140,7 @@ align-items: flex-end;
   .bloc_texte_img2 {
     display: flex;
     padding-left: 50px;
+    padding-bottom: 30px;
   }
   
   .button2 {
@@ -181,7 +183,7 @@ align-items: flex-end;
 }
 
 .button3 {
-  border: solid 4 white ;
+  border: solid 4px white ;
   border-radius: 15px;
   display: block;
   max-width: 200px;
@@ -202,6 +204,7 @@ align-items: flex-end;
     justify-content: flex-end;
    
   }
+  
   .bloc_texte_img5 {
     display: flex;
       background-image: url(../img/bg-blue.png);
@@ -212,6 +215,12 @@ align-items: flex-end;
     justify-content: flex-end;
     
   }
+.fondimage img {
+  display: block;
+  max-width: 80%;
+  mix-blend-mode: darken;
+}
+
 a {
   /* Link color */
 }
