@@ -12,12 +12,13 @@ body {
   margin: auto;
 }
  
-}
-}
+
 p, li, textarea, label, input, select {
   /* Default font size and line height */
 }
-
+.header {
+  text-align: center;
+}
 .title {
   font-size: 89px;
   color: white;
@@ -91,6 +92,7 @@ p, li, textarea, label, input, select {
   background-image: url(../img/bg-yellow.png);
   background-position: left bottom;
   background-size: auto 100%;
+  width: 650px;
 
 display : flex;
 justify-content: flex-end;
@@ -98,8 +100,10 @@ align-items: flex-end;
 }
 .blocimage img {
   display: block;
-  max-width: 100%;
+  max-width: 60%;
   mix-blend-mode: darken;
+  margin-right: auto;
+  margin-left: auto;
 }
 .bloc_texte_img {
   display: flex;
@@ -138,7 +142,7 @@ align-items: flex-end;
     background-image: url(../img/bg-orange.png);
     background-position: left bottom;
     background-size: auto 100%;
-    width: auto;
+    width: 650px;
     
   display : flex;
   justify-content: flex-end;
@@ -148,6 +152,8 @@ align-items: flex-end;
     display: flex;
     padding-left: 50px;
     padding-bottom: 30px;
+    margin-right: auto;
+    margin-left: auto;
   }
   
   .button2 {
@@ -186,7 +192,8 @@ align-items: flex-end;
     width: auto;
 
   justify-content: flex-end;
-  
+  margin-right: auto;
+  margin-left: auto;
 }
 
 .button3 {
@@ -209,7 +216,8 @@ align-items: flex-end;
       width: auto;
   
     justify-content: flex-end;
-   
+    margin-right: auto;
+    margin-left: auto;
   }
   
   .bloc_texte_img5 {
@@ -220,7 +228,8 @@ align-items: flex-end;
       width: auto;
   
     justify-content: flex-end;
-    
+    margin-right: auto;
+    margin-left: auto;
   }
 .fondimage img {
   display: block;
@@ -237,10 +246,11 @@ align-items: flex-end;
 
 .blockimages img {
     justify-content: space-between;
-    max-width: 250px;
-    margin-left: 10px;
-    margin-right: 10px;
+    max-width: 1000px;
+    margin-left: 20px;
+    margin-right: 17px;
     margin-bottom: 30PX;
+
 }
 
 .fondnoir {
@@ -248,7 +258,6 @@ background-color: #231f20;
 width: 1224px;
 height: 2400px;
 }
-
 
 
 
