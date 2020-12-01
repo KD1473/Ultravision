@@ -28,7 +28,6 @@ p, li, textarea, label, input, select {
   margin-bottom: 8px;
   text-transform: uppercase;
 }
-@media screen and (min-width: 780px) { /* petits écrans */
 
 .section-title {
   Font-size: 38px;
