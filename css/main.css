@@ -72,23 +72,31 @@ p, li, textarea, label, input, select {
   color : black;
   text-align: left;
 }
-.bloc_texte_img {
-  display: flex;
+.bloc_texte {
+  width: 50%;
+  padding-left: 50px;
+    padding-right: 32px;
 }
-
-.bloc_texte { 
-width: 50%;
-padding-left: 50px;
-  padding-right: 32px;
-}
-
 .texte {
   font-size: 16px;
   text-align: justify;
 }
-.fondimage {
+.blocjaune {
+  background-image: url(../img/bg-yellow.png);
+  background-position: left bottom;
+  background-size: auto 100%;
+
+display : flex;
+justify-content: flex-end;
+align-items: flex-end;
+}
+.blocimage img {
+  display: block;
+  max-width: 70%;
   mix-blend-mode: darken;
-  font-size: 50px;
+}
+.bloc_texte_img {
+  display: flex;
 }
 .button1 {
   border: solid 4px #fcce00;
@@ -102,6 +110,54 @@ padding-left: 50px;
   color:#fcce00;
   padding : 10px 32px;
 }
+.subtitle2 {
+  font-size: 24px;
+  color : black;
+  text-align: left;
+}
+.bloc_texte2 { 
+  width: 50%;
+  padding-left: 50px;
+    padding-right: 32px;
+  }
+  .texte2 {
+    font-size: 16px;
+    text-align: justify;
+  }
+  .ul {
+    font-size: 16px;
+    text-align: justify;
+  }
+  .blocorange {
+    background-image: url(../img/bg-orange.png);
+    background-position: left bottom;
+    background-size: auto 100%;
+    
+  display : flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  }
+  .bloc_texte_img2 {
+    display: flex;
+  }
+  
+  .button2 {
+    border: solid 4px #ff6b00 ;
+    border-radius: 15px;
+    display: block;
+    max-width: 200px;
+    font-style : normal;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    color:#ff6b00;
+    padding : 10px 32px;
+  }
+
+
+
+
+
 a {
   /* Link color */
 }
