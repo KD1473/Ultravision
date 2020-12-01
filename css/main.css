@@ -136,8 +136,15 @@ align-items: flex-end;
   .texte2 {
     font-size: 16px;
     text-align: justify;
-  }
-
+}
+.texte21{
+  font-size: 16px;
+    text-align: justify;
+}
+.texte22{
+  font-size: 16px;
+    text-align: justify;
+}
   .blocorange {
     background-image: url(../img/bg-orange.png);
     background-position: left bottom;
