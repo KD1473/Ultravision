@@ -8,8 +8,12 @@
 body {
   /* Default font family and font color */
   font-family: 'poppins',sans-serif;
+  display: block;
+  margin: auto;
 }
-
+ 
+}
+}
 p, li, textarea, label, input, select {
   /* Default font size and line height */
 }
@@ -21,7 +25,9 @@ p, li, textarea, label, input, select {
   background-color: #fcce00;
   margin-top: 0;
   margin-bottom: 8px;
+  text-transform: uppercase;
 }
+@media screen and (min-width: 780px) { /* petits écrans */
 
 .section-title {
   Font-size: 38px;
@@ -98,6 +104,7 @@ align-items: flex-end;
 .bloc_texte_img {
   display: flex;
   padding-bottom: 30px;
+  
 }
 
 .button1 {
@@ -238,7 +245,8 @@ align-items: flex-end;
 
 .fondnoir {
 background-color: #231f20;
-display: block;
+width: 1224px;
+height: 2400px;
 }
 
 
