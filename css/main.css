@@ -33,7 +33,7 @@ p, li, textarea, label, input, select {
   /* Default font, size, and margins */
 }
 
-.blocrouge {
+.blocred {
   /* Default font, size, and margins */
  height: 32px;
   background-color: #e02020;
@@ -41,7 +41,7 @@ p, li, textarea, label, input, select {
 
 }
 
-.blocviolet {
+.blocpurple {
   /* Default font, size, and margins */
   height: 16px;
   display: block;
@@ -50,7 +50,7 @@ p, li, textarea, label, input, select {
  
 }
 
-.blocbleu {
+.blocblue {
   /* Default font, size, and margins */
   height: 8px;
   display: block;
@@ -92,12 +92,13 @@ align-items: flex-end;
 }
 .blocimage img {
   display: block;
-  max-width: 70%;
+  max-width: 100%;
   mix-blend-mode: darken;
 }
 .bloc_texte_img {
   display: flex;
 }
+
 .button1 {
   border: solid 4px #fcce00;
   border-radius: 15px;
@@ -124,14 +125,12 @@ align-items: flex-end;
     font-size: 16px;
     text-align: justify;
   }
-  .ul {
-    font-size: 16px;
-    text-align: justify;
-  }
+
   .blocorange {
     background-image: url(../img/bg-orange.png);
     background-position: left bottom;
     background-size: auto 100%;
+    width: auto;
     
   display : flex;
   justify-content: flex-end;
@@ -139,6 +138,7 @@ align-items: flex-end;
   }
   .bloc_texte_img2 {
     display: flex;
+    padding-left: 50px;
   }
   
   .button2 {
@@ -153,11 +153,65 @@ align-items: flex-end;
     color:#ff6b00;
     padding : 10px 32px;
   }
+  .subtitle3 {
+    font-size: 24px;
+    color : black;
+    text-align: left;
+  }
+  .bloc_texte3 {
+    width: 50%;
+    padding-left: 50px;
+    padding-right: 32px;
+    padding-top: 40px
+  }
+  .texte3 {
+    font-size: 16px;
+    text-align: justify;
+  }
+  
+.bloc_texte_img3 {
+  display: flex;
+    background-image: url(../img/bg-red.png);
+    background-position: left bottom;
+    background-size: auto 100%;
+    width: auto;
 
+  justify-content: flex-end;
+  
+}
 
-
-
-
+.button3 {
+  border: solid 4 white ;
+  border-radius: 15px;
+  display: block;
+  max-width: 200px;
+  font-style : normal;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  color:white;
+  padding : 10px 32px;
+}
+  .bloc_texte_img4 {
+    display: flex;
+      background-image: url(../img/bg-violet.png) ;
+      background-position: left bottom;
+      background-size: auto 100%;
+      width: auto;
+  
+    justify-content: flex-end;
+   
+  }
+  .bloc_texte_img5 {
+    display: flex;
+      background-image: url(../img/bg-blue.png);
+      background-position: left bottom;
+      background-size: auto 100%;
+      width: auto;
+  
+    justify-content: flex-end;
+    
+  }
 a {
   /* Link color */
 }
