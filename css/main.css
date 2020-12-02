@@ -256,17 +256,75 @@ align-items: flex-end;
     margin-left: 20px;
     margin-right: 17px;
     margin-bottom: 30PX;
-
 }
-
-.fondnoir {
+.grille {
+display: grid;
+grid-template-columns: 1fr 1fr 1fr 1fr;
+grid-gap: 32px;
+}
+.title3{
+  font-size: 40px;
+  color : white;
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 8px;
+  }
+.img_content {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 81);
+  border-radius: 12px;
+  padding: 16px;
+  opacity: 0;
+  transition: opacity 200ms;
+}
+.jeu1:hover .img_content{
+  opacity: 1;
+}
+.img_content > * {
+  transform: translateY(30px);
+  transition: transform 200ms;
+}
+.jeu1:hover .img_content>*{
+  transform: translateY(10px)
+}
+.grillefondnoir{
 background-color: #231f20;
-width: 1224px;
-height: 2400px;
 }
 
+}
+.img_categorie{
+text-align: center;
+font-size: 14px;
+}
+.img_title1{
+  text-align: center;
+  font-size: 32px;
+  color: #fcce00;
+  font-weight: bold;
+}
+.img_title2{
+  text-align: center;
+  font-size: 32px;
+  color: #ff6b00;
+  font-weight: bold;
+}
 
+.img_description{
+text-align: center;
+font-size: 14px;
+}
 
+.jeu1, .jeu2 {
+  position: relative;
+  max-width: 320px;
+  margin: auto;
+  color: white;
+  margin-bottom: 32px;
+}
 a {
   /* Link color */
 }
