@@ -19,6 +19,10 @@ p, li, textarea, label, input, select {
 .header {
   text-align: center;
 }
+@media screen and (max-width:700px){/*petit écrans*/
+  .header
+}
+
 .title {
   font-size: 89px;
   color: white;
@@ -173,7 +177,7 @@ align-items: flex-end;
   }
   .subtitle3 {
     font-size: 24px;
-    color : black;
+    color : white;
     text-align: left;
   }
   .bloc_texte3 {
@@ -185,6 +189,7 @@ align-items: flex-end;
   .texte3 {
     font-size: 16px;
     text-align: justify;
+    color: white;
   }
   
 .bloc_texte_img3 {
@@ -257,8 +262,27 @@ align-items: flex-end;
 .grille {
 display: grid;
 grid-template-columns: 1fr 1fr 1fr 1fr;
+grid-template-columns: repeat(auto-fill,minmax 320px);
 grid-gap: 32px;
+padding: 20px;
 }
+
+@media screen ans (max-width:1200px){
+  .grille {
+    grid-template-columns:1fr 1fr 1fr
+  }
+}
+@media screen ans (max-width:840px){
+  .grille {
+    grid-template-columns:1fr 1fr
+  }
+}
+@media screen ans (max-width:540px){
+  .grille {
+    grid-template-columns:1fr
+  }
+}  
+
 .title3{
   font-size: 40px;
   color : white;
@@ -324,24 +348,6 @@ font-size: 14px;
   color: white;
   margin-bottom: 32px;
 }
-
-.form-row{
-  text-align: justify ;
-  font-size: 16px;
-  color: white;
-  margin-left: 565px;
-  margin-right: 565px;
-}
-.texte {
-
-}
-.email {
-
-}
-.textarea {
-
-}
-
 
 
 a {
