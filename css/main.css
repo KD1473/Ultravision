@@ -58,11 +58,8 @@ p, li, textarea, label, input, select {
 
 .blocblue {
   /* Default font, size, and margins */
-  height: 8px;
   display: block;
-  background-color: #6236ff;
   margin-bottom: 8px;
- 
 }
 
 .title1 {
@@ -295,12 +292,14 @@ grid-gap: 32px;
 background-color: #231f20;
 }
 
-}
 .img_categorie{
+  margin-top : 0px;
 text-align: center;
 font-size: 14px;
 }
 .img_title1{
+  margin-top: 10px;
+  margin-bottom: 10px;
   text-align: center;
   font-size: 32px;
   color: #fcce00;
@@ -325,6 +324,26 @@ font-size: 14px;
   color: white;
   margin-bottom: 32px;
 }
+
+.form-row{
+  text-align: justify ;
+  font-size: 16px;
+  color: white;
+  margin-left: 565px;
+  margin-right: 565px;
+}
+.texte {
+
+}
+.email {
+
+}
+.textarea {
+
+}
+
+
+
 a {
   /* Link color */
 }
