@@ -19,9 +19,6 @@ p, li, textarea, label, input, select {
 .header {
   text-align: center;
 }
-@media screen and (max-width:700px){/*petit écrans*/
-  .header
-}
 
 .title {
   font-size: 89px;
@@ -92,7 +89,7 @@ p, li, textarea, label, input, select {
   background-image: url(../img/bg-yellow.png);
   background-position: left bottom;
   background-size: auto 100%;
-  width: 650px;
+  width: 720px;
 
 display : flex;
 justify-content: flex-end;
@@ -267,17 +264,17 @@ grid-gap: 32px;
 padding: 20px;
 }
 
-@media screen ans (max-width:1200px){
+@media screen and (max-width:1200px){
   .grille {
     grid-template-columns:1fr 1fr 1fr
   }
 }
-@media screen ans (max-width:840px){
+@media screen and (max-width:840px){
   .grille {
     grid-template-columns:1fr 1fr
   }
 }
-@media screen ans (max-width:540px){
+@media screen and (max-width:540px){
   .grille {
     grid-template-columns:1fr
   }
@@ -349,7 +346,43 @@ font-size: 14px;
   margin-bottom: 32px;
 }
 
+.form-row{
+  color: white;
+  font-size: 20px;
+  text-align: center;
+}
 
+@media only screen and (max-width: 768px){
+  .styled-input {
+      width:100%;
+  }
+}
+.bloccontact {
+  display: flex;
+  background-position: center;
+  background-size: auto 100%;
+  width: auto;
+  margin-right: 450px;
+  margin-left: 472px;
+justify-content: space-between;
+  border: solid 4px white ;
+  border-radius: 15px; 
+  padding:20px;
+}
+.message{
+  height: 150px;
+  resize: vertical;
+  border-radius: 12px;
+}
+.subject, .email, .name {
+  border-radius: 12px;
+}
+.blocgrey {
+  /* Default font, size, and margins */
+  height: 16px;
+  display: block;
+  background-color:  #231f20;
+}
 a {
   /* Link color */
 }
