@@ -129,7 +129,7 @@ align-items: flex-end;
 }
 @media screen and (max-width:1200px){
   .bloc_texte_img{
-    flex-direction: column;
+    width: 100%;
   }
 }
 @media screen and (max-width:740px){
@@ -482,17 +482,29 @@ font-size: 14px;
   text-align: center;
 }
 
+@media screen and (max-width:1200px){
+  .bloccontact{
+    width:100%; 
+  }
+}
+@media screen and (max-width:840px){
+  .bloccontact{
+    width:100%; 
+  }
+} 
 .bloccontact {
   display: flex;
   background-position: center;
   background-size: auto 100%;
   width: auto;
-  margin-right: 450px;
-  margin-left: 472px;
+  max-width: max-content;
 justify-content: space-between;
   border: solid 4px white ;
   border-radius: 15px; 
   padding:20px;
+  vertical-align: middle;
+  margin-right: auto;
+  margin-left: auto;
 }
 .message{
   height: 150px;
