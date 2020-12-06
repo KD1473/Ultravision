@@ -95,6 +95,123 @@ display : flex;
 justify-content: flex-end;
 align-items: flex-end;
 }
+@media screen and (max-width:1200px){
+  .blocjaune, .blocorange {
+    width:100%; 
+    height:100%;
+    margin-top: auto;
+    margin-bottom: auto;
+    max-width: 100%;
+  }
+}
+@media screen and (max-width:1200px){
+  .bloc_texte{
+    width:100%; 
+    height:100%;
+  }
+}
+
+@media screen and (max-width:1200px){
+  .texte2, .texte21, .texte22{
+    width:100%; 
+  }
+}
+@media screen and (max-width:840px){
+  .texte2, .texte21, .texte22{
+    width:100%; 
+  }
+}
+
+@media screen and (max-width:740px){
+  .bloc_texte_img{
+    flex-direction: column;
+  }
+}
+@media screen and (max-width:1200px){
+  .bloc_texte_img{
+    flex-direction: column;
+  }
+}
+@media screen and (max-width:740px){
+  .bloc_texte_img2{
+    flex-direction: column;
+    padding-left: 0px;
+  }
+}
+@media screen and (max-width:740px){
+  .bloc_texte_img3{
+    flex-direction: column;
+  }
+}
+@media screen and (max-width:740px){
+  .bloc_texte_img4{
+    flex-direction: column;
+  }
+}
+@media screen and (max-width:740px){
+  .bloc_texte_img5{
+    flex-direction: column;
+  }
+}
+@media screen and (max-width:1200px){
+  .texte{
+    font-size:14px;
+  }
+}
+
+@media screen and (max-width:840px){
+  .texte{
+    font-size:10px;
+  }
+}
+
+@media screen and (max-width:1200px){
+  .title{
+    font-size:38px;
+  }
+}
+
+@media screen and (max-width:840px){
+  .title{
+    font-size:32px;
+  }
+}
+
+@media screen and (max-width:1200px){
+  .blocred{
+    height: 18px;
+  }
+}
+
+@media screen and (max-width:840px){
+  .blocred{
+    height: 16px;
+  }
+}
+@media screen and (max-width:1200px){
+  .section-title{
+    font-size:28px;
+  }
+}
+
+@media screen and (max-width:840px){
+  .section-title{
+    font-size:20px;
+  }
+}
+@media screen and (max-width:1200px){
+  .title1{
+    font-size:18px;
+  }
+}
+
+@media screen and (max-width:840px){
+  .title1{
+    font-size:14px;
+  }
+}
+
+
 .blocimage img {
   display: block;
   max-width: 60%;
@@ -126,7 +243,6 @@ align-items: flex-end;
   text-align: left;
 }
 .bloc_texte2 { 
-  width: 50%;
   padding-left: 50px;
     padding-right: 32px;
   }
@@ -142,23 +258,24 @@ align-items: flex-end;
   font-size: 16px;
     text-align: justify;
 }
-  .blocorange {
-    background-image: url(../img/bg-orange.png);
-    background-position: left bottom;
-    background-size: auto 100%;
-    width: 650px;
+
+.blocorange {
+  background-image: url(../img/bg-orange.png);
+  background-position: left bottom;
+  background-size: auto 100%;
+  width: 950px;
     
   display : flex;
   justify-content: flex-end;
   align-items: flex-end;
   }
-  .bloc_texte_img2 {
-    display: flex;
-    padding-left: 50px;
-    padding-bottom: 30px;
-    margin-right: auto;
-    margin-left: auto;
-  }
+.bloc_texte_img2 {
+  display: flex;
+  padding-left: 50px;
+  padding-bottom: 30px;
+  margin-right: auto;
+  margin-left: auto;
+}
   
   .button2 {
     border: solid 4px #ff6b00 ;
@@ -178,7 +295,6 @@ align-items: flex-end;
     text-align: left;
   }
   .bloc_texte3 {
-    width: 50%;
     padding-left: 50px;
     padding-right: 32px;
     padding-top: 40px
@@ -238,8 +354,19 @@ align-items: flex-end;
   }
 .fondimage img {
   display: block;
-  max-width: 80%;
   mix-blend-mode: darken;
+  max-width: 80%;
+}
+@media screen and (max-width:1200px){
+  .fondimage{
+    max-width: 100%;
+  }
+}
+
+@media screen and (max-width:840px){
+  .fondimage{
+    max-width: 100%;
+  }
 }
 .title2 {
   font-size: 40px;
@@ -265,20 +392,23 @@ padding: 20px;
 }
 
 @media screen and (max-width:1200px){
-  .grille {
-    grid-template-columns:1fr 1fr 1fr
+  .grille{
+    grid-template-columns:1fr 1fr 1fr;
   }
+
 }
+
 @media screen and (max-width:840px){
-  .grille {
-    grid-template-columns:1fr 1fr
+  .grille{
+    grid-template-columns:1fr 1fr;
   }
 }
+
 @media screen and (max-width:540px){
-  .grille {
-    grid-template-columns:1fr
+  .grille{
+    grid-template-columns:1fr;
   }
-}  
+}
 
 .title3{
   font-size: 40px;
@@ -352,11 +482,6 @@ font-size: 14px;
   text-align: center;
 }
 
-@media only screen and (max-width: 768px){
-  .styled-input {
-      width:100%;
-  }
-}
 .bloccontact {
   display: flex;
   background-position: center;
